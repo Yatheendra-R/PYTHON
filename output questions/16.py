@@ -1,0 +1,6 @@
+f=open("ppp.txt","w+")
+f.write("All the gliters are not gold\n")
+f.write("The sky is limit")
+f.seek(3)
+r=f.readline()
+print(r)
